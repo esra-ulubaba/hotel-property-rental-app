@@ -1,16 +1,76 @@
-# otel_ve_emlak_kiralama
+# 🏨 Otel ve Emlak Kiralama Uygulaması
 
-Flutter ve Firebase kullanılarak geliştirilmiş, Stripe ile online ödeme entagrasyonuna sahip emlak kiralama uygulaması
+Flutter ve Firebase kullanılarak geliştirilmiş, **Stripe** ile online ödeme entegrasyonuna sahip otel ve emlak kiralama uygulaması. Airbnb benzeri bir kullanıcı deneyimi sunar; kullanıcılar konaklama ilanlarını arayabilir, filtreleyebilir, detaylarını inceleyebilir, rezervasyon yapabilir ve online ödeme gerçekleştirebilir.
 
-## Getting Started
+## ✨ Özellikler
 
-This project is a starting point for a Flutter application.
+- 🔍 **İlan Arama & Filtreleme** — Konum, tarih, fiyat aralığı ve oda özelliklerine göre arama
+- 🛏️ **Oda/Yatak Detayları** — Tek/çift kişilik, çift ve kral/kraliçe boy yatak seçenekleri ile misafir kapasitesi hesaplama
+- 🏠 **İlan Yönetimi** — Ev sahiplerinin kendi ilanlarını oluşturup yönetebilmesi
+- ⭐ **Değerlendirme Sistemi** — Kullanıcıların konaklamalar hakkında yorum ve puan bırakabilmesi
+- 💳 **Online Ödeme** — Stripe entegrasyonu ile güvenli rezervasyon ödemesi
+- 🔐 **Kullanıcı Yönetimi** — Firebase Authentication ile kayıt/giriş işlemleri
+- ☁️ **Bulut Veritabanı** — Firebase Firestore ile gerçek zamanlı veri senkronizasyonu
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Kullanılan Teknolojiler
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Teknoloji | Amaç |
+|---|---|
+| **Flutter** | Cross-platform mobil uygulama geliştirme |
+| **Firebase Authentication** | Kullanıcı kimlik doğrulama |
+| **Firebase Firestore** | Bulut tabanlı veritabanı |
+| **Firebase Storage** | Görsel/medya depolama |
+| **Stripe** | Online ödeme altyapısı |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Proje Yapısı
+
+```
+lib/
+ ├── models/           # Veri modelleri (kullanıcı, ilan vb.)
+ ├── screens/          # Uygulama ekranları
+ ├── widgets/          # Yeniden kullanılabilir UI bileşenleri
+ └── services/         # Firebase & Stripe servis katmanı
+android/               # Android platform dosyaları
+ios/                   # iOS platform dosyaları
+assets/                # Görseller ve statik dosyalar
+test/                  # Test dosyaları
+```
+
+## 🚀 Kurulum
+
+Projeyi yerel makinenizde çalıştırmak için:
+
+1. **Repoyu klonlayın**
+   ```bash
+   git clone https://github.com/esra-ulubaba/hotel-property-rental-app.git
+   cd hotel-property-rental-app
+   ```
+
+2. **Bağımlılıkları yükleyin**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Firebase yapılandırması**
+   - Kendi Firebase projenizi oluşturun ([Firebase Console](https://console.firebase.google.com/))
+   - `google-services.json` (Android) ve `GoogleService-Info.plist` (iOS) dosyalarını ilgili klasörlere ekleyin
+
+4. **Ortam değişkenlerini ayarlayın**
+   - Proje kök dizininde bir `.env` dosyası oluşturun
+   - Stripe API anahtarınızı ve gerekli diğer gizli bilgileri buraya ekleyin (bu dosya `.gitignore` içinde olduğu için repoya dahil edilmez)
+
+5. **Uygulamayı çalıştırın**
+   ```bash
+   flutter run
+   ```
+
+## 📋 Gereksinimler
+
+- Flutter SDK (kararlı sürüm)
+- Dart SDK
+- Android Studio veya VS Code
+- Aktif bir Firebase projesi
+- Stripe hesabı ve API anahtarları
+
+## 📱 Ekran Görüntüleri
+
