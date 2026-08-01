@@ -1,4 +1,3 @@
-<img width="1017" height="2048" alt="WhatsApp Image 2026-08-01 at 20 53 13" src="https://github.com/user-attachments/assets/1263230d-3d18-4134-81ac-ff7344f2850e" />
 # 🏨 Otel ve Emlak Kiralama Uygulaması
 
 Flutter ve Firebase kullanılarak geliştirilmiş, **Stripe** ile online ödeme entegrasyonuna sahip otel ve emlak kiralama uygulaması. Airbnb benzeri bir kullanıcı deneyimi sunar; kullanıcılar konaklama ilanlarını arayabilir, filtreleyebilir, detaylarını inceleyebilir, rezervasyon yapabilir ve online ödeme gerçekleştirebilir.
@@ -75,18 +74,20 @@ Projeyi yerel makinenizde çalıştırmak için:
 
 ## 📱 Ekran Görüntüleri
 
-<img width="1017" height="2048" alt="WhatsApp Image 2026-08-01 at 20 53 13" src="https://github.com/user-attachments/assets/b30676d8-b56d-49e6-8544-b7fcb4fffd57" />
-
-<img width="1024" height="2048" alt="WhatsApp Image 2026-08-01 at 20 57 33" src="https://github.com/user-attachments/assets/04054af2-00ef-42d2-84cc-a4e43b126e35" />
-
-<img width="971" height="2048" alt="WhatsApp Image 2026-08-01 at 21 00 23" src="https://github.com/user-attachments/assets/3f065651-f60a-49fb-831e-bf79c2d487dd" />
-
-<img width="932" height="2048" alt="WhatsApp Image 2026-08-01 at 21 00 23 (1)" src="https://github.com/user-attachments/assets/a466dcbe-b48b-4942-8b7c-d791127cd527" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b30676d8-b56d-49e6-8544-b7fcb4fffd57" width="200" />
+  <img src="https://github.com/user-attachments/assets/04054af2-00ef-42d2-84cc-a4e43b126e35" width="200" />
+  <img src="https://github.com/user-attachments/assets/3f065651-f60a-49fb-831e-bf79c2d487dd" width="200" />
+  <img src="https://github.com/user-attachments/assets/a466dcbe-b48b-4942-8b7c-d791127cd527" width="200" />
+</p>
 
 ### Stripe Ödeme Entegrasyonu
 Rezervasyon ödemeleri Stripe üzerinden güvenli şekilde alınmaktadır. Aşağıda test (sandbox) ortamında gerçekleştirilen başarılı ödeme işlemleri görülmektedir:
-<img width="1784" height="1055" alt="image" src="https://github.com/user-attachments/assets/0ecb0ae4-46b9-492e-9d63-a59df1af70b6" />
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0ecb0ae4-46b9-492e-9d63-a59df1af70b6" width="700" />
+</p>
 
+## 📄 Lisans
 
-
+Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
