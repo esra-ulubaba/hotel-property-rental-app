@@ -88,6 +88,3 @@ Rezervasyon ödemeleri Stripe üzerinden güvenli şekilde alınmaktadır. Aşa�
   <img src="https://github.com/user-attachments/assets/0ecb0ae4-46b9-492e-9d63-a59df1af70b6" width="700" />
 </p>
 
-## 📄 Lisans
-
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
